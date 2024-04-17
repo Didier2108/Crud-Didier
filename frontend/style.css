@@ -1,0 +1,45 @@
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.navbar{
+    z-index: 99;
+}
+
+.container__crud{
+    height: 90vh;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.card{
+    padding: 60px;
+}
+
+.scroll-tabla{
+    height: 65vh;
+    width: 70vw;
+    overflow-y: scroll;
+}
+
+tr{
+    text-align: center;
+}
+
+tbody th{
+    height: auto;
+}
+
+.border-warning:hover{
+    background-color: #fa0;
+}
+
+.border-danger:hover{
+    background-color: #a00;
+}
